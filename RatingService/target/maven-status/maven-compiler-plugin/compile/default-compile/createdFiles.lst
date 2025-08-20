@@ -1,0 +1,6 @@
+com\ratingservice\RatingServiceApplication.class
+com\ratingservice\service\RatingService.class
+com\ratingservice\repository\RatingRepository.class
+com\ratingservice\impl\RatingsServiceImpl.class
+com\ratingservice\controller\RatingsController.class
+com\ratingservice\entities\Ratings.class
