@@ -31,9 +31,12 @@ public class RatingsServiceImpl implements RatingService
 		// TODO Auto-generated method stub
 		return ratingRepository.findAll();
 	}
+	
+	//Changes by Azad
 
 	@Override
-	public List<Ratings> getRatingByUserId(String UserId) {
+	public List<Ratings> getRatingByUserId(String UserId)
+	{
 		
 		return ratingRepository.findByUserId(UserId);
 	}
